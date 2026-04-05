@@ -1,2 +1,3 @@
-# ai-retail-analytics-platform
-AI-Based Retail Analytics Platform using Python, SQL, Machine Learning, and Power BI for sales analysis and prediction.
+# AI Retail Analytics Platform
+
+This project analyzes retail data using AI techniques.
