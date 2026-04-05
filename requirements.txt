@@ -1,27 +1,16 @@
-# Core Libraries
-pandas>=2.1.0
-numpy>=1.24.0
-python-dotenv==1.0.0
-
-# Database
-psycopg2-binary>=2.9.6
-sqlalchemy>=2.0.19
-
-# Machine Learning
-scikit-learn>=1.2.2
-xgboost>=1.7.5
-lightgbm>=4.0.0
-
-# Visualization
-matplotlib>=3.7.1
-seaborn>=0.12.2
-plotly>=5.14.0
-
-# Testing
-pytest>=7.4.0
-pytest-cov>=4.1.0
-
-# Code Quality
-black>=23.7.0
-flake8>=6.0.0
-pylint>=2.17.5
+# AI Retail Analytics Platform Dependencies
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+prophet>=1.1.0
+plotly>=5.0.0
+sqlalchemy>=1.4.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+jupyter>=1.0.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+pillow>=8.0.0
+requests>=2.26.0
+pytest>=6.2.0
