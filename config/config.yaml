@@ -1,0 +1,17 @@
+# AI Retail Analytics Platform Configuration
+
+database:
+  host: localhost
+  port: 5432
+  name: retail_analytics
+  user: postgres
+  password: ${DB_PASSWORD}
+
+data:
+  raw_data_path: data/raw/
+  processed_data_path: data/processed/
+
+models:
+  sales_predictor:
+    type: random_forest
+    n_estimators: 100
